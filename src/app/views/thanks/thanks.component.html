@@ -1,0 +1,39 @@
+<div class="flex:center">
+  <div class="flex:wrapper">
+    <div
+      class="flex:center successPop__content animate__animated pv:5 ph:2"
+      data-animated="animate__fadeInUp"
+      data-animation-delay="1000ms"
+    >
+      <div class="flex:center">
+        <ui-icon
+          name="cube-bandage"
+          size="160px"
+          color="green"
+          stroke="0.6"
+        ></ui-icon>
+      </div>
+      <p class="t:center mt:2" style="max-width: 500px">
+        Se han enviado tus datos correctamente, en breve nuestro equipo de
+        expertos se pondrá en contacto contigo.
+      </p>
+      <div class="flex:center mv:3 ph:1">
+        <a
+          href="{{ config.landing }}"
+          id="closePop"
+          class="ui:button type:button theme:success style:small-round"
+          aria-label="Volver a varenna"
+        >
+          Volver a {{ config.name }}
+        </a>
+      </div>
+      <p class="pt:1 t:center size:xsmall opacity:6" style="max-width: 500px">
+        A partir de este momento tus datos personales están protegidos de
+        acuerdo a nuestro
+        <a href="https://ruba.mx/aviso-de-privacidad" target="_blank"
+          >aviso de privacidad</a
+        >.
+      </p>
+    </div>
+  </div>
+</div>

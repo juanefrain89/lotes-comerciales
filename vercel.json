@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/zenith-norte", "destination": "index.html" },
+    { "source": "/zenith-norte/(.*)", "destination": "$1" }
+  ]
+}

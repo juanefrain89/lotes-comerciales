@@ -1,0 +1,108 @@
+.ui\:modal {
+  &--overlay {
+    display: block;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+
+    background-color: rgba($black, 0.4);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+
+    transition: opacity 400ms linear;
+    transition-delay: 300ms;
+
+    &.show {
+      opacity: 1;
+    }
+  }
+
+  &--modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    padding-block: 2rem;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    align-items: flex-start;
+    justify-content: center;
+    transform: translateY(-100%);
+    opacity: 0;
+
+    transition: transform 600ms ease-in;
+    transition-delay: 400ms;
+
+    &,
+    * {
+      pointer-events: none;
+      user-select: none;
+    }
+
+    &.from\:top {
+      transform: translateY(-100%);
+    }
+    &.from\:bottom {
+      transform: translateY(100%);
+      align-items: flex-end;
+    }
+    &.from\:center {
+      transform: translateY(40%);
+      align-items: center;
+    }
+
+    &.show {
+      opacity: 1;
+      transform: translateY(0px);
+
+      &,
+      * {
+        pointer-events: all;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      max-width: 80%;
+      padding-block: 20px;
+      padding-inline: 40px;
+
+      background-color: $white;
+      border-radius: 20px;
+
+      @include since(tb) {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .theme\:primary {
+    background-color: var(--db-primary);
+    color: var(--db-white);
+  }
+
+  .theme\:secondary {
+    background-color: var(--db-smoke-darken-10);
+    color: var(--db-primary);
+  }
+
+  .link {
+    color: var(--db-primary);
+    text-decoration: underline;
+    font: inherit;
+  }
+}

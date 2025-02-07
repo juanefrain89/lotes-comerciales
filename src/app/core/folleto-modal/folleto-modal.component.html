@@ -1,0 +1,16 @@
+<div class="ui:modal" id="brochure">
+  <div class="ui:modal--overlay" [ngClass]="{ show: show }"></div>
+  <div class="ui:modal--modal from:bottom" [ngClass]="{ show: show }">
+    <div class="ui:modal--modal_content">
+      <app-contact-form
+        formType="brochure"
+        action="Descargar folleto"
+        title="Folleto digital"
+    
+        subtitle="Llena tus datos para poder descargar nuestro folleto digital"
+        (close)="closeModal()"
+        (submit)="closeModal()"
+      ></app-contact-form>
+    </div>
+  </div>
+</div>

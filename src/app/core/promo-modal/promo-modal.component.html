@@ -1,0 +1,48 @@
+<div class="ui:modal ui:promo" id="brochure">
+  <div class="ui:modal--overlay" [ngClass]="{ show: show }"></div>
+  <div class="ui:modal--modal from:top" [ngClass]="{ show: show }">
+    <div class="ui:modal--modal_content">
+      <div class="flex:center p:1 banner">
+        <img
+          src=""
+          alt=""
+          style="
+            aspect-ratio: 1/1;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+          "
+          width="1"
+          height="1"
+        />
+      </div>
+
+      <div class="flex flex:nowrap gap:3">
+        <button
+          type="button"
+          class="ui:button type:icons theme:secondary style:small-round"
+          (click)="closeModal()"
+        >
+          <ui-icon
+            name="arrow-left"
+            size="24px"
+            stroke="0.8"
+            color="var(--db-primary)"
+          ></ui-icon>
+        </button>
+        <button
+          type="button"
+          class="ui:button type:button theme:primary style:small-round"
+          style="flex: 1"
+          (click)="onSubmit()"
+        >
+          Quiero más información
+        </button>
+      </div>
+
+      <span class="size:xsmall t:block t:center">
+        Al dar click aceptar nuestros términos y condiciones
+      </span>
+    </div>
+  </div>
+</div>

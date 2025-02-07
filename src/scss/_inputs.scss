@@ -1,0 +1,66 @@
+.ui\:text {
+  display: flex;
+  width: 100%;
+  height: var(--db-height-elements);
+  border: 1px solid transparent;
+  padding-block: 0;
+  padding-inline: 1rem;
+  appearance: none;
+
+  background-color: var(--db-smoke);
+  color: var(--db-dark);
+
+  transition: border-color 200ms linear;
+
+  &\:error_input {
+    color: var(--db-danger);
+    font-size: 10px;
+    text-align: right;
+    font-style: italic;
+    width: 100%;
+    display: none;
+  }
+
+  &:not(:hover):invalid,
+  &:not(:focus):invalid {
+    border-color: var(--db-danger);
+    background-color: lighten($state-danger, 54%);
+    font-weight: 500;
+    color: var(--db-danger);
+
+    + .ui\:text\:error_input {
+      display: block;
+    }
+  }
+
+  &:not(:hover):valid,
+  &:not(:focus):valid {
+    border-color: var(--dbprimary);
+  }
+
+  &:hover {
+    border-color: var(--db-dark-lighten-20);
+  }
+
+  &:focus {
+    border-color: var(--db-primary);
+    background-color: var(--db-white);
+    color: var(--db-black);
+  }
+}
+
+textarea {
+  &.ui\:text {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 150px;
+    padding-block: 10px;
+  }
+}
+
+.type\:icons {
+  min-height: var(--db-height-elements);
+  height: var(--db-height-elements);
+  min-width: var(--db-height-elements);
+  width: var(--db-height-elements);
+}

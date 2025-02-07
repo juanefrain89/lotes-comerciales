@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+  --db-base-color: #fff;
+  --font-family-main: "Poppins";
+  --db-title-face: "Poppins", sans-serif;
+  --db-line-height: 1.4;
+  --db-small-relative: 80%;
+  --db-height-elements: 45px;
+
+  /*
+  * Definen el porcentaje o medida en pixeles a restar del 100%
+  * de la pantalla para establecer el limite de container: .flex:wrapper
+  */
+  --db-wrap-m: 5%;
+  --db-wrap-tb: 10%;
+  --db-wrap-l: 15%;
+  --db-wrap-d: 20%;
+  --db-wrap-hd: 20%;
+  --db-wrap-w: 30%;
+
+  //Tamaños de texto para diferentes resoluciones
+  --db-font-base: 16px;
+  --db-size-xs: 10px;
+  --db-size-sm: 12px;
+  --db-size-md: 18px;
+  --db-size-lg: 24px;
+  --db-size-tl: 36px;
+  --db-size-jb: 44px;
+  --db-size-hr: 60px;
+  --db-size-mg: 120px;
+
+  //radius
+  --db-radius-sm: 4px;
+  --db-radius-md: 12px;
+  --db-radius-lg: 18px;
+  --db-radius-fluid: 50px;
+
+  // ajustes de media queries
+  --db-breakpoint-m: 320px;
+  --db-breakpoint-tb: 765px;
+  --db-breakpoint-l: 1020px;
+  --db-breakpoint-d: 1360px; // cuidar mucho la maquetacion aqui
+  --db-breakpoint-hd: 1430px;
+  --db-breakpoint-w: 1910px;
+
+  // tamaño de boton de whatsApp
+  --db-whatsapp-size: 60px;
+  --db-whatsapp-size-icon: 36px;
+}
+
+//Tema de los componentes CSS
+$primary: #0e4345;
+$secondary: #f3efe4;
+$white: #ffffff;
+$black: #000000;
+$smoke: #f6f6f6;
+$dark: #404040;
+$gray: #717d7d;
+
+//Colores de estado para elmentos input, etc.
+$state-danger: #c51533;
+$state-warning: #000000;
+$state-info: #157bc5;
+$state-success: #00c850;
+
+@import "dbgrid/scss/lib";
+@import "./scss/whatsapp";
+@import "./scss/inputs";
+@import "./scss/modal";
+
+@include create-color-palette($colors, $tones);
+
+// img {
+//   opacity: 0;
+//   transition: opacity 200ms ease-out;
+
+//   &.loaded {
+//     opacity: 1;
+//   }
+// }
+
+body.thanks {
+  app-folleto-modal,
+  app-form,
+  app-modal-gallery,
+  app-whatsapp-form,
+  app-popup {
+    &,
+    & * {
+      transform: scale(0) !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      display: none !important;
+      visibility: hidden !important;
+    }
+  }
+}

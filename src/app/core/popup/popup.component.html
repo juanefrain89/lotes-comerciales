@@ -1,0 +1,29 @@
+<div class="ui:modal">
+  <div class="ui:modal--overlay" [ngClass]="{ show }"></div>
+  <div class="ui:modal--modal" [ngClass]="{ show }">
+    <div class="ui:modal--modal_content">
+      <p class="t:center marginless">
+        Hubo una actualización en el aviso de privacidad,
+        <a
+          class="link"
+          href="https://ruba.mx/aviso-de-privacidad/"
+          target="_blank"
+          >haz clic aquí</a
+        >
+        para enterarte.
+      </p>
+      <div class="flex justify:center">
+        <button
+          type="button"
+          class="ui:button theme:primary type:button style:small-round"
+          #closePop
+        >
+          Aceptar aviso de privacidad
+        </button>
+      </div>
+      <small class="t:block t:center size:xsmall opacity:6">
+        Acepta el aviso de privacidad para continuar
+      </small>
+    </div>
+  </div>
+</div>

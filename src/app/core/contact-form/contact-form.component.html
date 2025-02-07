@@ -1,0 +1,124 @@
+<div class="flex:column width-20">
+  <div class="flex:column mb:1">
+    <p class="marginless size:large" *ngIf="!titleLess">{{ title }}</p>
+    <span class="t:block t:left mt:1" *ngIf="!labelLess">{{ subtitle }}</span>
+  </div>
+  <div class="flex:column gap:3 width:20">
+    <ng-container *ngIf="['whatsapp', 'brochure'].includes(formType)">
+      <div class="flex:column gap:1" *ngIf="showCtrl.SingleLine">
+        <input
+          [(ngModel)]="data.SingleLine"
+          name="SingleLine"
+          placeholder="Nombre"
+          class="ui:text style:small-round"
+          pattern="[A-Za-z]+"
+          minlength="3"
+        />
+        <span class="ui:text:error_input">{{ schema.form.errors.name }}</span>
+      </div>
+      <div class="flex:column gap:1" *ngIf="showCtrl.SingleLine1">
+        <input
+          [(ngModel)]="data.SingleLine1"
+          name="SingleLine1"
+          placeholder="Apellido"
+          class="ui:text style:small-round"
+          pattern="[A-Za-z]+"
+          minlength="3"
+        />
+        <span class="ui:text:error_input">El apellido no es válido</span>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="['contacto'].includes(formType)">
+      <div class="flex flex:nowrap gap:2">
+        <div class="flex:column gap:1" *ngIf="showCtrl.SingleLine">
+          <input
+            [(ngModel)]="data.SingleLine"
+            name="SingleLine"
+            placeholder="Nombre"
+            class="ui:text style:small-round"
+            pattern="[A-Za-z]+"
+            minlength="3"
+          />
+          <span class="ui:text:error_input">El nombre no es válido</span>
+        </div>
+        <div class="flex:column gap:1" *ngIf="showCtrl.SingleLine1">
+          <input
+            [(ngModel)]="data.SingleLine1"
+            name="SingleLine1"
+            placeholder="Apellido"
+            class="ui:text style:small-round"
+            pattern="[A-Za-z]+"
+            minlength="3"
+          />
+          <span class="ui:text:error_input">El apellido no es válido</span>
+        </div>
+      </div>
+    </ng-container>
+    <div class="flex:column gap:1" *ngIf="showCtrl.PhoneNumber1_countrycode">
+      <input
+        [(ngModel)]="data.PhoneNumber1_countrycode"
+        name="PhoneNumber1_countrycode"
+        placeholder="Celular"
+        class="ui:text style:small-round"
+        pattern="\d+"
+        maxlength="16"
+      />
+      <span class="ui:text:error_input"
+        >Ingresa un número de teléfono valido</span
+      >
+    </div>
+    <div class="flex:column gap:1" *ngIf="showCtrl.Email">
+      <input
+        type="email"
+        [(ngModel)]="data.Email"
+        name="Email"
+        placeholder="Correo electrónico"
+        class="ui:text style:small-round"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      />
+      <span class="ui:text:error_input">Ingresa un correo valido</span>
+    </div>
+    <div class="flex:column gap:1" *ngIf="showCtrl.MultiLine">
+      <textarea
+        [(ngModel)]="data.MultiLine"
+        name="Email"
+        placeholder="Deja tu mensaje"
+        class="ui:text style:small-round"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      ></textarea>
+      <span class="ui:text:error_input">Ingresa un mensaje valido</span>
+    </div>
+
+    <div class="flex flex:nowrap gap:3">
+      <button
+        type="button"
+        class="ui:button type:icons theme:secondary style:small-round"
+        (click)="onClose()"
+      >
+        <ui-icon
+          name="arrow-left"
+          size="24px"
+          stroke="0.8"
+          color="var(--db-primary)"
+        ></ui-icon>
+      </button>
+      <button
+        type="button"
+        class="ui:button type:button theme:primary style:small-round"
+        style="flex: 1"
+        (click)="onSubmit()"
+      >
+        {{ action }}
+      </button>
+    </div>
+  </div>
+  <!-- <button class="close">Volver a Santorini</button> -->
+  <span class="size:xsmall t:block t:center mt:1" *ngIf="showCtrl.legal">
+    Acepto que toda la información recabada con este formulario será tratada de
+    conformidad con el
+    <a href="https://ruba.mx/aviso-de-privacidad" class="link" target="_blank"
+      >aviso de privacidad</a
+    >.
+  </span>
+</div>

@@ -1,0 +1,19 @@
+<div class="ui:modal" id="whatsapp">
+  <div class="ui:modal--overlay" [ngClass]="{ show: show }"></div>
+  <div class="ui:modal--modal from:bottom" [ngClass]="{ show: show }">
+    <div class="ui:modal--modal_content">
+      <app-contact-form
+        formType="whatsapp"
+        action="Enviar WhatsApp"
+        title="Contacto vía WhatsApp"
+        subtitle="Llena tus datos para poder brindarte una mejor atención"
+        (close)="closeModal()"
+        (submit)="closeModal()"
+      ></app-contact-form>
+    </div>
+  </div>
+</div>
+
+<button type="button" (click)="showModal()" class="ui:whatsapp">
+  <img src="assets/icons/wp.svg" alt="WhatsApp" />
+</button>

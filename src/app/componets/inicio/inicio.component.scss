@@ -1,0 +1,1488 @@
+.menu{
+    height: 70px;
+    width: 100%;
+    background-color: #F2A344;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.futuro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hijo-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   height: 80%;
+  z-index: 1;
+  position: relative;
+   
+}
+
+.hijo-container1 > img{
+    width: 157px;
+    height: 160px;
+}
+
+.imagen {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+  
+}
+
+
+.container1-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-right: 10%;
+    justify-content: end;
+
+}
+
+.container1-button > button{
+height: 52px;
+border-radius: 46px;
+opacity: 1000;
+z-index: 1000;
+    width: 175px ;
+    background-color: #F2A344;
+}
+
+.container1{
+    padding-top: 60px;
+    width: 100%;
+    flex-grow: 1;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.sesion1{
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+    display: flex
+;
+}
+
+.sesion1 > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.imagen > img{
+    width: 100%;
+    height: 100%;
+    height: 59px;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    height: 100%;
+    align-items: center;
+}
+
+.enlaces{
+    color: #FFFFFF;
+    width:60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+body, html{
+    margin: 0%;
+    padding: 0;
+}
+
+
+
+.sesion2{
+    width: 100%;
+    background-color: #D9D9D9;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    height: auto;
+    position: relative;
+    
+}
+
+.sesion2 > h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrar{
+    width: 40%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+   
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hijos{
+    width: 100%;
+  justify-content: start;
+   
+    height: 100%;
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 100px 56px 153px 55px 80px auto;
+  
+   
+}
+
+
+
+
+.sesion3 > img{
+    width: 100%;
+    
+    opacity: 10%;
+    background-color: white;
+}
+
+.container3{
+    width: 100%;
+
+    position: relative;
+    padding-left: 7.02%;
+    padding-right: 7.02%;
+
+    padding-bottom: 20px;
+}
+
+button{
+     cursor: pointer;
+}
+
+#centrar{
+    width: 100%;
+    height: 100%;
+    justify-content: center !important;
+}
+
+.header{
+    display: flex;
+    position: relative;
+  justify-content: center;
+    width: 100%;
+    height: 90px;
+}
+
+
+.cc{
+    position: absolute;
+}
+
+
+
+.header > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.cc > img{
+    width: 75px;
+    height: 75px;
+}
+
+
+.first-item{
+    width: 100%;
+    height: 100%;
+
+}
+.prueba{
+    background-color: #F2A344;
+}
+
+
+
+
+.hijos-imagen1{
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fondo2{
+    width: 100%;
+   
+    position: absolute;
+    opacity: 10%;
+}
+
+.hijos_imagen2{
+    width: 30px;
+    height: 30px;
+    color: #A42429;
+    stroke: #A42429;
+    stroke-width: 2px;
+}
+
+.detalles{
+    width: 180px;
+    background-color: #233645;
+    border-radius: 46px;
+    height: 42px;
+    display: none;
+}
+.icono1{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.icono2, .icono3{
+    display: flex;
+    align-items: start;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.mapi{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 0px;
+}
+.button-1{
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+    justify-content: center;
+    color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.button-11{
+    color: white;
+    width: 175px;
+    height: 40px;
+    background-color: #233645;
+
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.kk{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.centrar >h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px !important;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1;
+}
+ul{
+    list-style:disc;
+   margin-left: 60px;
+}
+
+
+li{
+    margin-top: 10px;
+}
+.kakas >p {
+    margin-left: 30px;
+}
+
+
+.icono2 > img, .icono3 >img{
+    width: 70px;
+}
+
+.icono3{
+    margin-top: 25px;
+}
+
+.icono2 > p, .icono3 > p{
+    margin-left: 10px;
+}
+
+.locacionp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    margin-left: 10px;
+}
+
+.mapi{
+    width: 36%;
+    border-radius: 1000px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+
+.country{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    gap:50px;
+   
+    grid-template-columns: 50% 50%;
+
+
+}
+
+
+.country > div{
+    display: flex;
+    align-items: center;
+}
+
+.country > div:first-child{
+    margin-left: auto;
+    height: 100%;
+    
+}
+
+.country > div:nth-last-of-type(1){
+    width: 150px;
+    
+
+}
+
+.gri{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    width: 100%;
+    
+   gap: 30px;
+}
+
+.hijos2{
+  display: flex;
+  align-items: center;
+    width: 100%;
+   
+    height: 100%;
+}
+
+.hijos2 > img{
+    width: 90%;
+    height: 250px;
+}
+
+
+
+
+.jj{
+    height: 200px !important;
+    
+}
+
+.aboh{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboh > div{
+    width: 70%;
+    display: flex;
+
+    justify-content:space-between;
+}
+
+.abusoflex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.abusoflex > button{
+    background-color: #7D4927;
+    width: 180px;
+    height: 46px;
+    margin-top: 50px;
+    border-radius: 46px;
+}
+
+
+.sesion4{
+    padding-bottom: 44px;
+    width: 100%;
+    padding-left: 7.02%;
+    padding-right: 7.02%;
+   
+    padding-top: 30px;
+    background-color: #D9D9D9;
+}
+
+.hijo_conpadding{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.conoce{
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  
+}
+
+.tab{
+    width:50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+
+.tab > div {
+    width: 33.33333333333%;
+    border-radius: 30px;
+  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tab > div:nth-of-type(1){
+    background-color: #233645;   
+}
+
+.textaa{
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.fofana{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fofana > img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.container4{
+    display: grid;
+    gap: 30px;
+    height: auto;
+    grid-template-columns: 43% 14% 43%;
+    width: 100%;
+}
+
+.fafafaf{
+    display: grid;
+    gap: 10px;
+}
+
+.item1, .item2{
+ 
+    display: grid;
+    grid-template-columns: 60px auto;
+    gap: 30px;
+}
+
+
+
+.texta{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: -20px;
+   
+
+}
+
+.lk > img{
+    width: 60px;
+    height: 60px;
+}
+
+.fofana2{
+width: 100%;
+height: 100%;
+
+}
+
+.fofana2 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.anuncio{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: #233645;
+    opacity: .9;
+}
+
+.anuncio > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;   
+}
+
+
+.hero {
+    background: url("../../../assets/brand/anuncio.jpg") center/cover no-repeat; /* Fondo */
+    height: 296px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white; 
+    text-align: center;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.66); 
+    z-index: 0; 
+  }
+  
+  .hero-content {
+    position: relative; /* Asegura que el contenido esté sobre la capa */
+    z-index: 1;
+    font-size: 1.5rem; 
+    line-height: 1.5; /* Espaciado entre líneas */
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Separación con el párrafo */
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 1rem; /* Tamaño del texto secundario */
+    color: #ffffffcc; /* Blanco con algo de transparencia */
+  }
+
+  .heropadre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+ 
+  
+
+  .form-container{
+    width: 418px;
+    height: 376px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    z-index: 4;
+    height: 120%;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #424041;
+  }
+
+  .form-container input{
+    width: 90%;
+    border: 1px solid #0000004D;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-container h2{
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .form-container button{
+    background-color: #F2A344;
+    width: 60%;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 80%;
+  }
+@media screen and (max-width:1000px) {
+    .hijos{
+        grid-template-rows: 121px 54px 140px 66px 112px auto;
+    }
+
+    .centrar{
+        width: 67%;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .hijos{
+        grid-template-rows: 121px 54px 140px 66px 112px auto;
+    }
+    .icono1{
+        margin-left: 0px;
+    }
+}
+
+.sesion5{
+    width: 100%;
+ //   min-height: 100vh;
+    position: relative;
+}
+
+.fondo3{
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 10%;
+}
+
+.hijo_sesion5{
+    width: auto;
+    height: 100%;
+    padding-left: 7.02%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.grid-sesion5{
+    width: 100%;
+    display: grid;
+    padding-left: 100px;
+    grid-template-columns: auto 1fr;
+}
+.lugar-indicado{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    grid-template-columns: auto 1fr;
+}
+
+
+
+
+.hijo-grid5{
+    width: auto;
+    
+    
+    
+
+}
+
+.peña2{
+    width: 75px;
+    height: 75px;
+
+}
+
+.centrar2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.cv{
+    width: auto;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 20px;
+
+}
+
+.cv > img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.circular{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    border: 3px solid #A42429;
+}
+
+.circular img{
+    width: 80%;
+    height: 80%;
+}
+
+.cv-item-p3{
+    max-width: 212px;
+    font-size: 11px;
+    margin-top: 7px;
+    font-weight: 300;
+
+}
+
+.cv-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cv-item-p1 {
+    width: 150px;
+}
+
+.cv{
+    margin-top: 5px;
+}
+
+.ul2 > li{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+
+.cv-item-p2{
+    width: 221px;
+}
+
+.imagen2{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+
+
+}
+
+.imagen2 > img{
+   z-index: 10000;
+    width: 100%;
+    border-radius: 50px 0 0 50px !important;
+    height: 100%;
+}
+
+.centrar3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.nene{
+    width: 100%;
+   
+    margin-top: 30px;
+    border-radius: 46px;
+    background-color: #7D4927;
+  margin-left: -200px;
+  width: 180px;
+  height: 46px;
+}
+
+
+
+
+
+.footer {
+    background-image: url('../../../assets/brand/bnm.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative; /* Necesario para el pseudo-elemento */
+    overflow: hidden; /* Asegura que el pseudo-elemento no se desborde */
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: 1; 
+}
+
+
+
+.footer-content {
+    position: relative; 
+    z-index: 2;
+    height: 90%; 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 20px;
+    flex: 1;
+    display: flex;    
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.footer-section p, .footer-section a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section img{
+    width: 137px;
+    height: 133px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    height: 300px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.sesiond{
+    width: 600px;
+}
+
+.fin {
+    margin-top: auto; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cuatro{
+    margin-top: 50px !important;
+    width: 444px;
+    font-size:24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.cinco{
+    width: 514px;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    text-align: left;
+    margin-top: 40px !important;
+}
+
+
+.anterior{
+    width: 75px;
+    height: 55px;
+    z-index: 10;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.siguiente{
+    width: 75px;
+    height: 55px;
+    z-index: 10;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.conn{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media screen and (max-width:800px) {
+    .ojala{
+        margin-left: 50px;
+    }
+            .gri{
+                grid-template-columns: 1fr 1fr;
+            }
+            .imagen2{
+                padding-left: 30px;
+            }
+    
+            .ul2{
+                margin-left: 30px;
+            }
+            .hijo_sesion5{
+                padding-left: 15px;
+            }
+            .container4{
+                gap: 64px;
+                grid-template-columns: 57% 20%;
+            }
+            .sesion4{
+                padding-left: 10%;
+            }
+            .fofana2{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                display: flex;
+                justify-content: center;
+    
+            }
+    
+            .fofana2 > img{
+                width: 90%;
+    
+            }
+    
+            .tab{
+                width: 88%;
+            }
+    
+            .tab > div{
+                font-size: 12px;
+            }
+            
+        }
+    
+
+        @media screen and (max-height: 500px) {
+            .sesion1{
+                min-height: 420px;
+            }
+            
+        }
+
+
+
+@media screen and (max-width: 713px) {
+
+    .fofana{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+
+    .fofana > img{
+        width: 118px;
+        height: 100%;
+    }
+
+.container4{
+    grid-template-columns: 100%;
+}
+
+    .iconodif{
+        margin-bottom: 15px;
+    }
+    .container2{
+        position: relative;
+       display: flex;
+        width: 60%;
+        height: 740px;
+        padding: 0;
+       
+    }
+.hijos-imagen1{
+    margin-bottom: 30px;
+}
+    .sesion2{
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+    .mapi{
+        width: 55%;
+        height: 167px;
+    }
+
+    .icono2, .icono3{
+        margin-top: 13px;
+    }
+    .icono2 p , .icono3 > p, .kk > p{
+        margin-left: 30px;
+    }
+
+    .hijos{
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        grid-template-rows: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .hijos:nth-of-type(1){
+        opacity: 1;
+    } 
+   .centrar{
+    width: 85%;
+   }
+   .centrar > h1{
+    text-align: center;
+   }
+
+   .icono1{
+    margin-left: 30px;
+   }
+}
+
+
+
+
+@media screen and (max-width: 623px) {
+
+    .container2{
+        height: 850px;
+    }
+
+    .hijo_sesion5{
+        padding-top: 80px;
+    }
+.heropadre {
+    flex-direction: column;
+   
+}
+.hero{
+    height: auto;
+}
+
+.form-container{
+    margin-bottom: -50px;
+    height: 360px !important;
+}
+
+.hero-content{
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width:1000px) {
+    .grid-sesion5{
+        padding-left: 10px;
+        margin-left: 0px !important; 
+    }}
+
+
+
+
+
+
+
+
+    
+
+
+    @media screen and (max-width:550px){
+
+        
+        .container2{
+            height: 850px;
+        }
+        .container4{
+            grid-template-columns: 100%;
+        }
+
+        .fofana2{
+            grid-column-end: 2;
+        }
+        .fofana{
+            width: 100%;
+            justify-content: center;
+            grid-column-start: 1;
+            grid-row-start: 2;
+            height: auto;
+            align-items: center;
+        }
+        .fofana > img{
+            width: 110px;
+            height: 400px;
+
+        }
+    }
+ 
+    
+
+    @media screen and (max-width:850px) {
+        .nene{
+            margin-left: -45px;
+        }
+        .fafafaf{
+            gap: 20px;
+        }
+    }
+
+    @media screen and (max-width: 630px) {
+        .grid-sesion5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen2{
+            order: 1;
+        }
+        .centrar3{
+            order: 3;
+        }
+        .hijo-grid5{
+            order: 2;
+        }
+
+        .imagen2{
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+            height: auto !important;
+            
+        }
+        .imagen2 > img{
+            width: 87%;
+            border-radius: 26px !important;
+
+        }
+        .nene{
+margin-left: 0;
+margin-top: 70px;
+        }
+
+        .hero-content{
+            margin-top: 50px;
+        }
+
+        .hijo_sesion5{
+            padding-left: 0;
+        }
+        
+    }
+
+
+
+    @media screen and (min-width: 1600px) {
+        button{
+            width: 180px !important;
+            height: 46px !important;
+        }
+        .centrar{
+            width: 60%;
+        }
+        .icono2 > p{
+            margin-left: 0px !important;
+        }
+        .icono3 >p{
+            margin-left: 0px !important;
+        } 
+        .icono3, .icono2{
+            gap: 30px;
+        }
+        .kakas{
+            margin-left: 0;
+        }
+        .lk{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+     .texta{
+        align-items: center;
+     }   
+     .textaa{
+        justify-content: center;
+        align-items: flex-start     !important
+         
+     }
+.hijos2 > img{
+    height: 340px;
+}
+     .item1{
+        gap: 53px;
+     }
+   .fofana2{
+    display: flex;
+    justify-content: center;
+   }
+   .fofana2 > img{
+    width: 545px;
+    height: 463px;
+   }
+
+   .fofana > img{
+    width: 118px;
+    height: 500px;
+    margin-left: auto;
+    
+
+   }
+   p, .ul2 >li{
+    font-size: 20px !important;
+   }
+   h1{
+    font-size: 30px;
+   }
+   .imagen2{
+    width: 100%;
+    max-width: 1206px;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 745px !important;
+    padding-left: 100px;
+
+   }
+
+   .cv-item{
+    justify-content: flex-start;
+   }
+   .lugar-indicado{
+    margin-bottom: 120px;
+   }
+
+   .nene{
+    width: 341px;
+    height: 65px;
+    margin-top: 144px;
+   }
+   .grid-sesion5{
+    grid-template-columns: 620px auto; 
+   }
+   .hijo-grid5{
+    width: auto;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .hijos{
+    grid-template-rows: 100px 63px 231px 55px 80px auto;
+   }
+   .mapi{
+    width: 50%;
+    height: 90%;
+   }
+
+   .futuro > h2{
+    font-size: 42px;
+
+   }
+
+   .container2{
+    gap: 24px;
+   }
+
+   .futuro > h1{
+    font-size: 55px;
+   }
+   .modi{
+    font-size: 27px !important;
+   }
+
+
+.hijo-container1 > img{
+    width: 193px;
+    height: 191px;
+}
+.contenedor1{
+    width: 205px;
+}
+
+.item1, .item2{
+    gap: 60px;
+}
+
+.tab{
+    margin-bottom: 120px;
+    margin-top: 85px;
+}
+
+.imagen > img{
+    margin-left: 110px;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+.cv{
+    margin-right: auto;
+}
+
+.peña2{
+    width: 150px;
+    height: 150px;
+
+}
+
+
+.jj{
+    height: 320px !important;
+    
+}
+    }
+
+
+    @media screen and (max-width :470px) {
+
+.container2{
+    height: 900px;
+    width: 78%;
+}
+
+        .form-container{
+            width: 90%;
+        }
+
+        .container1{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .gri{
+            grid-template-columns: 1fr;
+        }
+        .hijos2{
+            justify-content: center;
+        }
+.ojala{
+    margin-left: 10px;
+}
+        .aboh > div{
+            width: 100%;
+        }
+        .country > div:nth-last-of-type(1){
+            width: 100%;
+            padding-right: 10px;
+        }
+        .country{
+            width: 94%;
+        }
+
+      
+       
+    }
+
+
+    @media screen and (max-width :400px) {
+.country{
+    gap: 22px;
+}
+
+.sesion1{
+    min-height: 600px;
+}
+
+#centrar{
+    margin-top: 70px;
+}
+
+.country{
+    margin-top: 52px;
+}
+        
+    }
+
+
+    @media screen and (max-width : 700px) {
+        .gri{
+            grid-template-columns: 1fr;
+            
+        }
+
+        .hijos2 > img{
+            width: 100%;
+            height: 300px !important;
+        }
+    }
+
+
+    section{
+        overflow-x: hidden ;
+    }

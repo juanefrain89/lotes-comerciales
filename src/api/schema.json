@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "form": {
+      "errors": {
+        "name": "El nombre no es válido"
+      }
+    },
+    "gallery": {
+      "modelo1": {
+        "title": "Galeria de X modelo",
+        "images": [
+          "foto1.jpg",
+          "foto1.jpg",
+          "foto1.jpg"
+        ]
+      }
+    }
+  }
+}
