@@ -1,20 +1,35 @@
 <div class="menu">
-    <div class="imagen">
+    
+      
+
+    <div class="imagen" >
         <img src="../../../assets/icons/logo.png" alt="">
     </div>
     <div class="enlaces">
-        <div class="contenedor1"> <a class="enlace" href="">Contacto</a> </div>
+        <div class="contenedor1" > <a class="enlace" href="">Contacto</a> </div>
        <div class="contenedor1"><a class="enlace" href="">Lotes saltillo</a></div>
        <div class="contenedor1">  <a class="enlace" href="">Lotes en Ramos arizpe</a></div>
        <div class="contenedor1"> <a class="enlace" href="">Local comercial</a></div>
-   
-        
+   <div class="contenedor2" (click)="hamburgesa()">
+    <svg class="menu-icon" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
+        <path d="M3 5H21" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M3 12H21" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M3 19H21" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <div class="hamburguesa">
+        <div class="contenedor3">Contacto</div>
+        <div class="contenedor3">Lotes saltillo</div>
+        <div class="contenedor3">Lotes en Ramos arizpe</div>
+        <div class="contenedor3">Local comercial</div>
+       </div> 
+   </div>
+       
       
         </div>
 </div>
 
-<section class="sesion1">
-    <img style="z-index: -1;" src="../../../assets/brand/portada.jpg" alt="">
+<section class="sesion1" >
+    <img  src="../../../assets/brand/portada.jpg" alt="">
 
     <div class="container1">
         <div class="hijo-container1">
@@ -31,7 +46,7 @@
 
 <section class="sesion2">
     <div class="centrar"> 
-    <h1>Lotes con uso de suelo comercial disponibles en diferentes zonas consolidadas y de crecimiento</h1>
+    <h1 class="nnm">Lotes con uso de suelo comercial disponibles en diferentes zonas consolidadas y de crecimiento</h1>
     </div>
 <div class="conn">
     <img src="../../../assets/brand/anterior.jpeg" (click)="atrasar()" class="anterior">
@@ -54,18 +69,18 @@
             <img class="mapi" src="../../../assets/brand/mapi.png" alt=""> 
 <div class="icono2">
     <img src="../../../assets/icons/Houses.svg" alt="">
-    <p>Proyección de habitantes: 9,176.</p>
+    <p>Proyección de habitantes: <span class="span1">1,392.</span> </p>
 </div>
 
 <div class="icono3">
     <img src="../../../assets/icons/Houses.svg" alt="">
-    <p class="err">En fraccionamiento nuevo compuesto por un total de 348 viviendas</p>
+    <p class="err">En fraccionamiento nuevo compuesto por un total de <span class="span1">348 viviendas</span> </p>
 </div>
 
 <div class="icono3">
     <img src="../../../assets/icons/car.svg" alt="">
     <div class="kk"> 
-        <p class="err">En fraccionamiento nuevo compuesto por un total de 348 viviendas</p>
+        <p class="err">Lotes comerciales sobre la <span class="span1">calle principal Francisco I. Madero.</span> </p>
         <ul>
             <li>A 320 mts. aprox. de Calzada Antonio Narro.</li>
            
@@ -89,21 +104,21 @@
               </svg>
             <p class="locacionp"> Al Sur de Saltillo. </p>         
             </div>     
-            <img class="mapi" src="../../../assets/brand/mapi.png" alt=""> 
+            <img class="mapi imagen-animada" src="../../../assets/brand/mapi2.png" alt=""> 
 <div class="icono2">
     <img src="../../../assets/icons/Houses.svg" alt="">
-    <p>Proyección de habitantes: 9,176.</p>
+    <p>Proyección de habitantes: <span class="span1">9,176.</span></p>
 </div>
 
 <div class="icono3">
     <img src="../../../assets/icons/Houses.svg" alt="">
-    <p>En fraccionamiento nuevo compuesto por un total de 348 viviendas</p>
+    <p>en fraccionamiento nuevo compuesto por un total de <span class="span1"> 2,294 viviendas.</span></p>
 </div>
 
 <div class="icono3">
     <img src="../../../assets/icons/car.svg" alt="">
     <div class="kk"> 
-    <p>En fraccionamiento nuevo compuesto por un total de 348 viviendas</p>
+    <p><span class="span1">Lotes sobre calle Pino Reflexa</span></p>
     <ul>
         <li>A 320 mts. aprox. de Calzada Antonio Narro.</li>
         <li>A 500 mts. aprox. de vialidad principal Blvd. Pino Real.</li>
@@ -118,6 +133,7 @@
         </div>
         <div class="hijos">
 
+            
             <img class="hijos-imagen1" src="../../../assets/icons/foret.png" alt="">
             <div class="icono1">   
             <svg class="hijos_imagen2" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -126,21 +142,21 @@
               </svg>
             <p class="locacionp"> Al Sur de Saltillo. </p>         
             </div>     
-            <img class="mapi" src="../../../assets/brand/mapi.png" alt=""> 
+            <img class="mapi mapi3" src="../../../assets/brand/mapi3.png" alt=""> 
 <div class="icono2">
     <img src="../../../assets/icons/Houses.svg" alt="">
-    <p>Proyección de habitantes: 9,176.</p>
+    <p>Proyección de habitantes: <span class="span1">3,360..</span> </p>
 </div>
 
 <div class="icono3">
     <img src="../../../assets/icons/Houses.svg" alt="">
-    <p>En fraccionamiento nuevo compuesto por un total de 840 viviendas.</p>
+    <p>en fraccionamiento nuevo compuesto por un total de <span class="span1">840 viviendas.</span> </p>
 </div>
 
 <div class="icono3">
     <img src="../../../assets/icons/car.svg" alt="">
     <div class="kk kakas"> 
-        <p>Lotes comerciales a 148 metros de acceso principal del fraccionamiento.</p>
+        <p>Lotes comerciales a <span class="span1">148 metros de acceso principal</span>  del fraccionamiento.</p>
         <ul>
             <li>A 50 mts. aprox. de escuela</li>
         </ul>
@@ -157,7 +173,7 @@
 </div>
 </section>
 
-<section class="sesion3">
+<section class="sesion3" >
     <img class="fondo2" src="../../../assets/brand/fondo2.jpg" alt="">
     <div class="container3"> 
     
@@ -171,9 +187,8 @@
             </div>
 
             <div class="country">
-                <div>Sur Oriente de Saltillo.</div>
-                <div>Lote: 711.74 m2
-                    Construcción: 85 m2</div>
+                <div class="sin-name"> <img src="../../../assets/icons/location.svg" alt=""> <div>Sur Oriente de Saltillo.</div></div>
+              <div class="kkl"><img src="../../../assets/brand/group.png" alt="">   <div>Lote: 711.74 m2 Construcción: 85 m2</div> </div>  
             </div>
 
 
@@ -183,25 +198,58 @@
                 <div class="hijos2"><img class="jj" src="../../../assets/brand/img3.png" alt=""></div>
             </div>
             <div class="aboh">
-                <div> <p>Ubicado sobre acceso principal del fraccionamientod</p>
-                    <p class="ojala">A aproximadamente 80 mts. de centro comunitario.</p></div>
-                
+                <div> 
+                   
+                   <div class="nc"> <img class="line" src="../../../assets/icons/Line.svg" alt="">
+                      
+                  
+                    <p>Ubicado sobre acceso principal del fraccionamientod</p>
+                </div>
+                <div class="nc ojala"> 
+                    <img src="../../../assets/icons/lsj.svg" alt="" class="line">
+                    <p >A aproximadamente 80 mts. de centro comunitario.</p></div>
+                   
+                </div>
             </div>
             <div class="abusoflex"> 
             <button class="mas">Mas informacion</button>
         </div>
-</div>
-</div>
-</section>
-
-
+</div>                               
+</div>                              
+</section>                              
+                                              
+                                     
+                                    
+                                   
+                                     
 <section class="sesion4">
     <div class="hijo_conpadding">
         <h1  class="conoce">Conoce los detalles de cada uno de nuestros lotes</h1>
         <div class="tab">
-            <div class="hijo_tab">FORET</div>
-            <div class="hijo_tab">REAL DEL VALLE</div>
-            <div class="hijo_tab">PARAJES DE LOS PINOS</div>
+            <div 
+            class="hijo_tab" 
+            [ngStyle]="{
+              'background-color': activo == 1 ? '#233645' : 'transparent',
+              'color': activo == 1 ? 'white' : 'black'
+            }"  
+            (click)="handleactivo(1)">FORET</div>
+          
+          <div 
+            class="hijo_tab" 
+            [ngStyle]="{
+              'background-color': activo == 2 ? '#233645' : 'transparent',
+              'color': activo == 2 ? 'white' : 'black'
+            }"  
+            (click)="handleactivo(2)">REAL DEL VALLE</div>
+          
+          <div 
+            class="hijo_tab" 
+            [ngStyle]="{
+              'background-color': activo == 3 ? '#233645' : 'transparent',
+              'color': activo == 3 ? 'white' : 'black'
+            }"  
+            (click)="handleactivo(3)">PARAJES DE LOS PINOS</div>
+          
         </div>
         <div class="container4">
             <div class="fafafaf"> 
@@ -209,48 +257,62 @@
                 <div class="lk mm">
                     <img src="../../../assets/icons/location.svg" alt="">
                 </div>
-                <div class="texta"><p>Saltillo, Coahuila</p></div>
+                <div class="texta"><p>{{datos.estado}}, {{datos.ciudad}}</p></div>
             </div>
 
             <div class="item2">
                 <div class="lk">
                     <img src="../../../assets/icons/Houses.svg" alt="">
                 </div>
-                <div class="texta"><p>Proyección de habitantes: 1,392.</p></div>
+                <div class="texta"><p>{{datos.people.texto}} <span>{{datos.people.negritas}}</span></p></div>
             </div>
             <div class="item2">
                 <div class="lk">
                     <img src="../../../assets/icons/Houses.svg" alt="">
                 </div>
-                <div class="texta"><p>En fraccionamiento nuevo compuesto por un total de 348 viviendas.</p></div>
+                <div class="texta"><p>{{datos.house.texto}} <span>{{datos.house.negritas}}</span></p></div>
             </div>
             <div class="item2">
                 <div class="lk">
                     <img src="../../../assets/icons/car.svg" alt="">
                 </div>
-                <div class="texta"><p>Frente a vialidad y en acceso del fraccionamiento.
-                    Ideal para locales comerciales  sobre la calle principal Francisco I. Madero.
-                    A 320 mts. aprox. de Calzada Antonio Narr</p></div>
+                <div class="texta"><p>{{datos.car.texto}} <span>{{datos.car.negritas}}</span></p></div>
             </div>
             <div class="item2">
                 <div class="lk">
+
                     <img src="../../../assets/icons/Houses.svg" alt="">
+
                 </div>
-                <div class="texta textaa"><p>Precio por m2: $4,800.00 mxn.</p>
-            <p class="above_texta">*El precio no incluye gastos de escrituración. Vigencia Enero - Marzo 2025.</p>
-                </div>
+                <div class="texta textaa" *ngIf="activo !=2"><p>{{datos.precio.texto}}  <span>{{datos.precio.negritas}} </span> </p>
+            <p *ngIf="activo == 1" class="above_texta">{{datos.precio.li.uno}}</p>
+        </div>
+            <div class="oop" *ngIf="activo == 2">
+                <div class="cssgrid"> <div class="colorone" style="background-color: #091570;"></div>  <p>$2,543,660.00 mxn.</p>  </div>
+                <div class="cssgrid"> <div class="colorone" style="background-color: #9301FC;" ></div>  <p>$2,543,660.00 mxn.</p> </div>
+                <div class="cssgrid"> <div class="colorone" style="background-color: #D59D00;"></div>  <p>$2,543,660.00 mxn.</p>  </div>
+                <div class="cssgrid"> <div class="colorone" style="background-color: #5BB2F5;"></div>  <p>$2,543,660.00 mxn.</p> </div>
+                <div class="cssgrid"> <div class="colorone" style="background-color: #82E032;"></div>  <p>$2,543,660.00 mxn.</p>  </div>
+                <div class="cssgrid"> <div class="colorone" style="background-color: #A70F0D;"></div>  <p>$2,543,660.00 mxn.</p> </div>
+            </div>
+                
             </div>
         </div>
 
-        <div class="fofana">
-            <img src="../../../assets/brand/foret.png" alt="">
+        <div  class="fofana">
+            <img [src]="datos.imagen2" alt="">
             <button class="detalles">Ver detalles</button>
         </div>
 
-        <div class="fofana2">
-            <img src="../../../assets/brand/glorieta.png" alt="">
+        <div  class="fofana2">
+            
+            <img  [src]="datos.imagen1" alt="">
+            
         </div>
-
+       
+            
+          
+       
         </div>
     </div>
 </section>
@@ -328,7 +390,7 @@
 
 
 
-  <footer class="footer">
+  <footer class="footer" >
     <div class="footer-content">
         <div class="footer-section sesiond">
             <img src="../../../assets/brand/logo2.png" alt="">
@@ -341,10 +403,32 @@
             <p>Contratos de adhesión</p>
            </div>
         </div>
-        <div class="footer-section">
+        <div class="footer-section two">
+            
+
+
+           
+                <div class="ui:modal--modal_content">
+                  <app-contact-form
+                  class="formulario"
+                    action="Enviar mis datos"
+                    formType="contacto"
+                    title="Contáctanos"
+                    subtitle="Llena tus datos para poder brindarte una mejor atención"
+                    (close)="closeModal()"
+                    (submit)="closeModal()"
+                  ></app-contact-form>
+                </div>
+            
+            
+
             
             
         </div>
-       
+        <div class="fin nada">
+            <p>Aviso de privacidad</p>
+            <p>Terminos y condiciones</p>
+            <p>Contratos de adhesión</p>
+           </div>
     </div>
 </footer>

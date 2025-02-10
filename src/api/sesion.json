@@ -1,0 +1,111 @@
+{
+    "uno":{
+        "imagen1":"../../../assets/brand/glorieta.png",
+        "imagen2":"../../../assets/brand/foret.png",
+       "estado": "Saltillo",
+       "ciudad":"Coahuila",
+       "people":{
+        "texto":"Proyección de habitantes:",
+        "negritas": "1,392."
+       },
+       "house":{
+        "texto":"En fraccionamiento nuevo compuesto por un total de ",
+        "negritas":"348 viviendas."
+       },
+       "car":{
+        "texto":"Frente a vialidad y en acceso del fraccionamiento. Ideal para locales comerciales  sobre la ",
+    "negritas" :"calle principal Francisco I. Madero.",
+    "li":{
+        "Uno":"A 320 mts. aprox. de Calzada Antonio Narro."
+    }  
+    },
+    "precio":{
+        "texto":"Precio por m2: ",
+        "negritas":"$4,800.00 mxn.",
+        "li":{
+            "uno":"*El precio no incluye gastos de escrituración. Vigencia Enero - Marzo 2025."
+        }
+    }
+    },
+
+    "dos":{
+        "imagen1":"../../../assets/brand/glorieta2.png",
+        "imagen2":"../../../assets/brand/foret2.png",
+        "estado":"Coahuila",
+        "ciudad" :"Ramos Arizpe",
+        "people":{
+        "texto":"Proyección de habitantes: ",
+        "negritas": "3,360."
+       },
+       "house":{
+        "texto":"En fraccionamiento nuevo compuesto por un total de ",
+        "negritas":"840 viviendas."
+       },
+       "car":{
+        "texto":"Lotes comerciales a ",
+    "negritas" :"148 metros de acceso principal del fraccionamiento.",
+    "li":{
+        "Uno":"A 50 mts. aprox. de escuela"
+    }  
+    },
+    "precio":{
+        "texto":"*El precio no incluye gastos de escrituración. Vigencia Enero - Marzo 2025.",
+       "item1":{
+        "imagen":"blue",
+        "descripcion":"$2,543,660.00 mxn."
+       },
+       "item2" :{
+        "imagen":"yellow",
+        "descripcion":"$1,019,844.00 mxn."
+       },
+       "item3":{
+"imagen":"",
+"descripcion":"$828,520.00 mxn."
+       },
+       "item4":{
+        "imagen":"",
+        "descripcion":"$1,739,584.00 mxn."
+       },
+       "item5":{
+        "imagen":"",
+        "descripcion":"$921,760.00 mxn"
+       },
+       "item6":{
+        "imagen":"",
+        "descripcion":"$8,236,396.00 mxn."
+       }
+    }
+
+    },
+    "tres":{
+        "imagen1":"../../../assets/brand/glorieta3.png",
+        "imagen2":"../../../assets/brand/foret2.png",
+        "imagencentral":"../../../assets/brand",
+        "estado":"Coahuila",
+        "ciudad" :"Ramos Arizpe",
+        "people":{
+        "texto":"Proyección de habitantes: ",
+        "negritas": "9,176."
+       },
+       "house":{
+        "texto":"En fraccionamiento nuevo compuesto por un total de",
+        "negritas":"2294 viviendas."
+       },
+       "car":{
+        "texto":"",
+    "negritas" :"Lotes sobre calle Pino Reflex",
+    "li":{
+        "Uno":"A 70 mts.  aprox. de vialidad principal Blvd. Pino Taeda.",
+        "dos":"A 500 mts. aprox. de vialidad principal Blvd. Pino Real.",
+        "tres":"A 216 mts. aprox. de escuela."
+    }  
+    },
+    "precio":{
+        "texto":"Precio por m2: $3,200.00 mxn.",
+        "li":{
+    "uno":"*El precio no incluye gastos de escrituración. Vigencia Enero - Marzo 2025"            
+        }
+    }
+
+    }
+}
