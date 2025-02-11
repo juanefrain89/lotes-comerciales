@@ -6,6 +6,10 @@
     gap: 10px;
 }
 
+.nada{
+    display: none !important;
+}
+
 .mapi3{
     border-radius: 0 !important;
     transform: rotate(80deg);
@@ -269,7 +273,7 @@ body, html{
     height: 100%;
     display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 100px 56px 153px 55px 80px auto;
+   grid-template-rows: 100px 56px 183px 55px 80px auto;
   
    
 }
@@ -328,8 +332,8 @@ button{
 }
 
 .cc > img{
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 98.8px;
 }
 
 
@@ -408,7 +412,7 @@ p{
     color: white;
     width: 175px;
     height: 40px;
-    background-color: #233645;
+    // background-color: #233645;
 
     margin-top: 50px;
     border-radius: 20px;
@@ -460,9 +464,9 @@ li{
 }
 
 .mapi{
-    width: 36%;
+    width: 48%;
     border-radius: 1000px;
-    height: 120px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -569,6 +573,7 @@ height: 60px;
     width: 180px;
     height: 46px;
     margin-top: 50px;
+    color: white;
     border-radius: 46px;
 }
 
@@ -843,15 +848,11 @@ height: 100%;
 
 .hijo-grid5{
     width: auto;
-    
-    
-    
-
 }
 
 .peña2{
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 98.8px;
 
 }
 
@@ -1129,6 +1130,26 @@ height: 100%;
 
 
 @media screen and (min-width: 1600px) {
+    .fin > p{
+        font-size: 19px;
+    }
+
+
+    .sesiond{
+        width: 85%;
+    }
+
+    .fin{
+        width: 100%;
+    }
+.cuatro{
+    width: 90%;
+    font-style: 28px !important;
+}
+
+.cinco{
+    font-size: 25px !important;
+}
 
 .kkl{
     width: 400px !important;
@@ -1240,22 +1261,29 @@ width: 50%;
 height: 90%;
 }
 
-.futuro > h2{
-font-size: 42px;
-
+h2{
+    font-size: 70px;
 }
 
 .container2{
 gap: 24px;
 }
 
-.futuro > h1{
-font-size: 55px;
-}
-.modi{
-font-size: 27px !important;
+.hijo-container1 > img{
+    width:300px;
+    height: 300px;
 }
 
+.futuro > h1{
+font-size: 74px !important;
+}
+.modi{
+font-size: 32px !important;
+}
+
+p{
+    font-size: 30px;
+}
 
 .hijo-container1 > img{
 width: 193px;
@@ -1300,11 +1328,38 @@ height: 320px !important;
 }
 
 
+
+@media screen and (min-width: 800px) and (max-width: 1249px) {
+
+    .menu{
+        justify-content: space-between;
+
+    }
+    .enlaces{
+        width: auto;
+        gap: 30px;
+        padding-right: 50px;
+    }
+    .contenedor1{
+        width: auto;
+    }
+    .imagen{
+        margin-left: 50px;
+    }
+}
+
 @media screen and (max-width:1000px) {
     .hijos{
-        grid-template-rows: 121px 54px 140px 66px 112px auto;
+        grid-template-rows: 121px 54px 180px 66px 112px auto;
     }
 
+
+    .mapi{
+        width: 60%;
+    }
+    .mapi3{
+      height: 100%;
+    }
     .centrar{
         width: 67%;
     }
@@ -1356,7 +1411,7 @@ height: 320px !important;
                 }
                 
                     .hijos{
-                        grid-template-rows: 121px 54px 140px 66px 112px auto;
+                        grid-template-rows: 121px 54px 167px 66px 112px auto;
                     }
                     .icono1{
                         margin-left: 0px;
@@ -1532,6 +1587,11 @@ height: 320px !important;
             .hijos2 > img{
                 width: 100%;
                 height: 300px !important;
+            }
+
+            .mapi3{
+                margin-top: 20px;
+                
             }
         }
 
@@ -1787,6 +1847,7 @@ to{
 }
 
 
+
         .tab{
             width: 95%;
         }
@@ -1809,13 +1870,13 @@ to{
             justify-content: flex-start;
             margin-top: 20px;
         }
-        .icono2 > p{
+        .icono2 > p, .kk > p , .icono3 > p{
             margin-left: 15px;
         }
 
 .container2{
    
-    width: 78%;
+    width: 90%;
 }
 
         .form-container{
@@ -1943,8 +2004,30 @@ to{
             height: 490px;
         }
 
+        .two{
+            align-items: end;
+        }
+.footer{
+    max-height: 649px;
+}
         .tab > div{
             font-size: 18px;
         }
-        
+
+        .hijos{
+            grid-template-rows: 121px 54px 240px 66px 112px auto;
+            box-sizing: border-box;
+          
+        }
+
+         .mapi{
+            height: 90%;
+            width: 60%;
+            margin-top: 10px;
+        }
+       .mapi3{
+        height: 300px ;
+        width: 247px ;
+        margin-top: -30px;
+       } 
     }
