@@ -1,15 +1,13 @@
 <div class="menu">
-    
-      
-
     <div class="imagen" >
         <img src="../../../assets/icons/logo.png" alt="">
     </div>
     <div class="enlaces">
-        <div class="contenedor1" > <a class="enlace" href="">Contacto</a> </div>
+       
        <div class="contenedor1"><a class="enlace" href="">Lotes saltillo</a></div>
        <div class="contenedor1">  <a class="enlace enlance1" href="">Lotes en Ramos arizpe</a></div>
        <div class="contenedor1"> <a class="enlace" href="">Local comercial</a></div>
+       <div class="contenedor1 contacto" > <a class="enlace" href="">Contacto</a> </div>
    <div class="contenedor2" (click)="hamburgesa()">
     <svg class="menu-icon" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
         <path d="M3 5H21" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -27,21 +25,18 @@
       
         </div>
 </div>
-
-<section class="sesion1" >
-    <img  src="../../../assets/brand/portada.jpg" alt="">
-
+<section class="sesion1" [attr.data-animate]="'animate__backInRight'">
+    <div class="overlay"></div> <!-- Capa blanca con opacidad -->
     <div class="container1">
         <div class="hijo-container1">
             <img src="../../../assets/brand/logo2.png" alt="" class="logo2">
-            <div class="futuro"><h1>El futuro de tu negocio</h1>
-                <h2 class="importante">empieza aquí.</h2></div>
-
-<p class="modi">Conoce las diferentes opciones que tenemos para ti.</p>
+            <div class="futuro">
+                <h1>El futuro de tu negocio</h1>
+                <h2 class="importante">empieza aquí.</h2>
+            </div>
+            <p class="modi">Conoce las diferentes opciones que tenemos para ti.</p>
         </div>
-
     </div>
-
 </section>
 
 <section class="sesion2">
@@ -173,7 +168,7 @@
 </div>
 </section>
 
-<section class="sesion3" >
+<section [attr.data-animate]="'animate__backInRight'" class="sesion3" >
     <img class="fondo2" src="../../../assets/brand/fondo2.jpg" alt="">
     <div class="container3"> 
     
