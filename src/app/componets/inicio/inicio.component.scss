@@ -1,4 +1,5 @@
 
+
 .oop{
    margin-left: -20px;
     display: grid;
@@ -116,7 +117,7 @@ width: 100%;
     position: absolute;
     bottom: 0px;
     // transform: translateY(100%);
-    transition: all 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out; /* Transición suave */
     transform: translateY(-500px);
     right: 0;
     z-index: 2;
@@ -167,6 +168,11 @@ width: 100%;
 .hijo-container1 > img{
     width: 157px;
     height: 160px;
+}
+
+
+.futuro > h1{
+    font-weight: 700px;
 }
 
 .imagen {
@@ -292,7 +298,7 @@ body, html{
 .hijos{
     width: 100%;
   justify-content: start;
-   transition-duration: 5s !important;
+   transition-duration: 2s !important;
    
     height: 100%;
     display: grid;
@@ -1406,8 +1412,17 @@ height: 320px !important;
 
 
     @media screen and (max-width:900px) {
+.sesiond{
+    height: auto;
+}
 
-
+.nada{
+    display: flex !important;
+}
+        .fin{
+            display: none;
+            width: 50%;
+        }
         .footer-section > img{
             margin-left: auto;
             margin-right: auto;
@@ -1441,7 +1456,16 @@ height: 320px !important;
                 }
                 
                 .fin{
-                    width: 100% !important;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 80% ;
+                    align-items: center;
+                    height: 54px;
+                    margin-top: 20px;
+                }
+
+                .fin > p {
+                    font-size: 14px;
                 }
                 
                     .hijos{
@@ -1572,7 +1596,7 @@ height: 320px !important;
             margin-bottom: 30px;
         }
             .sesion2{
-                min-height: auto;
+                min-height: 1300px;
                 padding-bottom: 40px;
             }
             .mapi{
@@ -1586,20 +1610,42 @@ height: 320px !important;
             .icono2 p , .icono3 > p, .kk > p{
                 margin-left: 30px;
             }
+
+            .sesion2{
+                overflow: hidden;
+            }
         
             .hijos{
                 gap: 16px;
                 width: 100%;
-                opacity: 1;
-                display: none;
+               
+                
                 grid-template-rows: auto;
                 padding-top: 0;
                 padding-bottom: 0;
+                display: grid;
+                position:absolute;
+                
             }
         
             .hijos:nth-of-type(1){
-                display: grid;
+position: absolute;   
+      
+transform: translateX(-1000px);    
+
+
+                
             } 
+
+            .hijos:nth-of-type(2){
+                transform: translateX(0);
+                position: relative;
+            }
+            .hijos:nth-of-type(3){
+                transform: translateX(1000px);
+                position: absolute;
+            }
+            
            .centrar{
             width: 85%;
            }
@@ -1638,6 +1684,15 @@ height: 320px !important;
 
 
     @media screen and (max-width : 600px) {
+
+
+.fin{
+    width: 90%;
+}
+
+.fin > p{
+    font-size: 11px;
+}
 
     .nc{
         flex-direction: column;
@@ -1685,6 +1740,9 @@ height: 320px !important;
 
 
     @media screen and (max-width : 600px) {
+        .fin{
+            margin-top: 43px;
+        }
 
         .nada{
             display: flex;
@@ -1710,7 +1768,7 @@ height: 320px !important;
                 }
         
                 .two{
-                    margin-top: -60px;
+                    margin-top: 20px;
                 }
                
         
@@ -1945,6 +2003,9 @@ margin-top: 70px;
 
 
     @media screen and (max-width :400px) {
+        .fin{
+            margin-top: 60px;
+        }
         .form-container > button{
             width: 70%;
             font-size: 13px;
@@ -2066,3 +2127,37 @@ margin-top: 70px;
         margin-top: -30px;
        } 
     }
+
+
+
+    @media screen and (min-width : 714px ) {
+        .siguiente, .anterior{
+            display: none;
+        }
+        .hijos{
+            transform: translateX(0);
+        }
+    }
+
+    @media screen and (max-width : 790px) and (min-width : 714px){
+        .hijos{
+            grid-template-rows: 121px 54px 167px 66px 156px auto;
+            transform: translateX(0);
+        }
+    }
+
+
+
+
+    @media screen and (min-width: 900px) and (max-width: 1200px) {
+        .fin{
+            width: 146%;
+
+        }
+
+        .fin > p{
+            font-size: 13px;
+        }
+    }
+
+
