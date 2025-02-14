@@ -1,12 +1,12 @@
 import { Component, Renderer2, OnInit, HostListener, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { ObserverService } from '../../services/observer.service';
 import { ContactFormComponent } from "../../core/contact-form/contact-form.component";
-import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path';
+
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FirstService } from '../../first.service';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { SlDrawer } from '@shoelace-style/shoelace';
+
 interface SlideItem {
   imageSrc: string;
   alt: string;
